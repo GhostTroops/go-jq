@@ -1,0 +1,26 @@
+env:
+  - GO111MODULE=on
+#before:
+#  hooks:
+#    - go mod tidy
+project_name: jq
+builds:
+  - id: jq-darwin
+    ldflags:
+      - -s -w
+    binary: jq
+    env:
+      - CGO_ENABLED=0
+    main: main.go
+    goos:
+      - darwin
+    goarch:
+      - amd64
+
+archives:
+- format: zip
+  replacements:
+      darwin: macOS
+
+checksum:
+  name_template: "{{ .ProjectName }}-mac-checksums.txt"

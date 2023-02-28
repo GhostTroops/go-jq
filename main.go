@@ -87,6 +87,7 @@ go build -o jq main.go
 cat $HOME/MyWork/scan4all/atckData/china_chengdu.json|./jq "%v:%v" "ip_str" "port"
 cat $HOME/MyWork/scan4all/atckData/china_chengdu.json|./jq "ip_str" "port"
 ./jq $HOME/MyWork/scan4all/atckData/china_chengdu.json "ip_str" "port"
+./jq $HOME/MyWork/scan4all/atckData/china_chengdu.json "%v:%v" "ip_str" "port"
 */
 func main() {
 	//os.Args = []string{"", "/Users/51pwn/MyWork/scan4all/atckData/china_chengdu.json", "ip_str"}

@@ -4,6 +4,8 @@
 # What Features
 - Resolve the exception such as parse error: Invalid uXXXX uXXXX in jq(https://github.com/stedolan/jq/issues/2543)
 - Year-on-year jq, supporting the setting of golang format
+- support parse nmap / masscan result xml，完美解析 xml结果
+
 
 # How use
 ```
@@ -46,6 +48,8 @@ go build -o jq main.go
 cat $HOME/MyWork/scan4all/atckData/china_chengdu.json|./jq "%v:%v" "ip_str" "port"
 cat $HOME/MyWork/scan4all/atckData/china_chengdu.json|./jq "ip_str" "port"
 ./jq $HOME/MyWork/scan4all/atckData/china_chengdu.json "ip_str" "port"
+# 完美解析 nmap xml结果
+./jq $HOME/MyWork/scan4all/atckData/x01/a0988c54b5a57d258a43a0a95f54e5975aaec96e.xml "%v:%v"  "nmaprun.host.#.address.addr"  "nmaprun.host.#.ports.port.#.portid" 
 ```
 
 ## What format

@@ -4,6 +4,7 @@ go 1.19
 
 require (
 	github.com/hktalent/go-utils v0.0.0-20230228131712-18305d6db56c
+	github.com/hktalent/goxml2json v0.0.0-20221020101014-f91e9a0121fc
 	github.com/tidwall/gjson v1.14.4
 )
 

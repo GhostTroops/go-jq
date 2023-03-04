@@ -2,9 +2,11 @@
 *.exe
 *.exe~
 *.dll
+proxy.txt
 *.so
 *.gzip
 *.br
+/test/
 /jq
 /.ipCc/
 /pocs

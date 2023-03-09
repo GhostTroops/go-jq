@@ -20,6 +20,7 @@ func main() {
 	//os.Args = []string{"", "/Users/51pwn/MyWork/scan4all/atckData/x01/x01.json"}
 	// os.Args = []string{"", "/Users/51pwn/MyWork/scan4all/atckData/x01/x01.json", "host"}
 	//os.Args = []string{"", "/Users/51pwn/MyWork/scan4all/atckData/x01/a0988c54b5a57d258a43a0a95f54e5975aaec96e.xml", "%v:%v", "nmaprun.host.#.address.addr", "nmaprun.host.#.ports.port.#.portid"} //
+	os.Args = []string{"", "/Users/51pwn/MyWork/scan4all/atckData/x01/domains_httpx.json", "%v", "url"} //
 
 	a := os.Args[1:]
 	if !util.FileExists(a[0]) {

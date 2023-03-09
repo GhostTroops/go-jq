@@ -98,6 +98,9 @@ func DoOneJson(szJson, szFormat string, query ...string) {
 				szlstEq = szlstEq[0 : len(szlstEq)-1]
 			}
 			for i, _ := range query {
+				if szlstEq == query[i] {
+					continue
+				}
 				query[i] = query[i][len(szlstEq)+1:]
 			}
 

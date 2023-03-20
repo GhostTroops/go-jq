@@ -3,7 +3,7 @@ module github.com/hktalent/go-jq
 go 1.19
 
 require (
-	github.com/hktalent/go-utils v0.0.0-20230311085025-6315b018a7c6
+	github.com/hktalent/go-utils v0.0.0-20230320020645-7ccea150ced0
 	github.com/hktalent/goxml2json v0.0.0-20221020101014-f91e9a0121fc
 	github.com/tidwall/gjson v1.14.4
 )

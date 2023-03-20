@@ -222,6 +222,8 @@ github.com/hktalent/go-utils v0.0.0-20230309080935-081332a50ccb h1:pYg3EPVzo3yBn
 github.com/hktalent/go-utils v0.0.0-20230309080935-081332a50ccb/go.mod h1:7KgTgWFppKfnsAGh+fPlKgOGDmhXFOAsKneq5GPRTn4=
 github.com/hktalent/go-utils v0.0.0-20230311085025-6315b018a7c6 h1:j897wdramfUYm1aeixeVZs6y/Wgz7eJIcWnxfNKM5Og=
 github.com/hktalent/go-utils v0.0.0-20230311085025-6315b018a7c6/go.mod h1:hPw9zKf/VnOaU8DDwP7cWYBF9m/WN/8WUScsdmPPwhk=
+github.com/hktalent/go-utils v0.0.0-20230320020645-7ccea150ced0 h1:fHOzbgz1fC3NILKMq5CbV6AnRfGdZU6CyVoWtLCwQfo=
+github.com/hktalent/go-utils v0.0.0-20230320020645-7ccea150ced0/go.mod h1:gRFjrSQCJq0d+Y/iJffngpYFD1XS1rtowHbFps1HTiA=
 github.com/hktalent/goxml2json v0.0.0-20221020101014-f91e9a0121fc h1:xCfbmpT1Qgmcm6p/qtlv6wt4CyPvOCLV3/PjfKXXdsI=
 github.com/hktalent/goxml2json v0.0.0-20221020101014-f91e9a0121fc/go.mod h1:ADjILrqfUYHa7t3yutaiNXwsVnxkMd1xXTLa8Dq4d4o=
 github.com/hktalent/htmlquery v0.0.0-20230303073607-1fbec5a16112 h1:60QrkBG37YipZbxv92uUZWhdp5ayJlIcveQHtgTbT24=
